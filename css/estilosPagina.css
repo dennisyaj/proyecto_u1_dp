@@ -1,0 +1,32 @@
+h1 {
+  font-size: 20px;
+  font-family: sans-serif;
+}
+
+h2 {
+  font: 12px sans-serif;
+}
+
+header,
+section,T
+footer,
+aside,
+nav,
+article {
+  display: block;
+}
+
+body {
+  text-align: center;
+  background-color: #d1ccc0;
+}
+
+.cabecera {
+  background-color: white;
+  border: 1px solid #b33939;
+  padding: 20px;
+}
+
+.cabecera h1 {
+  text-align: left;
+}
