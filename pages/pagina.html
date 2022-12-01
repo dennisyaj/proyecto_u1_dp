@@ -1,28 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Mi primera pagina web</title>
-    <meta
-      name="description"
-      content="Esta es una pagina web de programacin web"
-    />
-    <meta name="author" content="Universidad Central Del Ecuador" />
-    <meta
-      name="keywords"
-      content="Inversiones, plazo fijo, cuentas, corriene, prestamos"
-    />
-    <link rel="stylesheet" href="../css/estilosPagina.css" />
-  </head>
-  <body>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mi primera pagina web</title>
+  <meta name="description" content="Esta es una pagina web de programacin web" />
+  <meta name="author" content="Universidad Central Del Ecuador" />
+  <meta name="keywords" content="Inversiones, plazo fijo, cuentas, corriene, prestamos" />
+  <link rel="stylesheet" href="../css/estilosPagina.css" />
+</head>
+
+<body>
+  <div class="formulario">
     <header class="cabecera">
       <h1>Mi primera pagina web</h1>
       <h2 id="id_titulo">Mi primera pagina web</h2>
     </header>
     <h1>Mi primera pagina web</h1>
-    <nav>
+    <nav class="menu">
       <!--unorden list-->
       <ul>
         <!-- item list-->
@@ -32,7 +29,7 @@
       </ul>
     </nav>
     <!-- el section es obligatorio-->
-    <section>
+    <section class="seccion">
       <article>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, cumque
@@ -55,27 +52,22 @@
           nobis a aspernatur cupiditate. Excepturi deleniti possimus
           consequuntur voluptatibus libero!
         </p>
-        <img
-          src="../img/nuevo-logo-fef.jpg"
-          alt="No se pudo cargar la imagen."
-        />
+        <img src="../img/nuevo-logo-fef.jpg" alt="No se pudo cargar la imagen." />
         <footer>Likes (20)</footer>
       </article>
     </section>
     <!--contenido alternativo o referncial de mi pagina-->
 
-    <aside>
-      <blockquote
-        cite="https://www.ibm.com/docs/es/bpm/8.5.6?topic=jms-java-message-service-programming-model"
-      >
+    <aside class="referencias">
+      <blockquote cite="https://www.ibm.com/docs/es/bpm/8.5.6?topic=jms-java-message-service-programming-model">
         Referencia relacionada 1
       </blockquote>
-      <blockquote
-        cite="https://www.ibm.com/docs/es/bpm/8.5.6?topic=jms-java-message-service-programming-model"
-      >
+      <blockquote cite="https://www.ibm.com/docs/es/bpm/8.5.6?topic=jms-java-message-service-programming-model">
         Referencia relacionada 2
       </blockquote>
     </aside>
-    <footer>Derechos reservados 2022-2030</footer>
-  </body>
+    <footer class="pie">Derechos reservados 2022-2030</footer>
+  </div>
+</body>
+
 </html>
