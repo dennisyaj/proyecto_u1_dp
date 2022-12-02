@@ -50,7 +50,6 @@ body {
   border: double black;
   margin: 15px auto;
   background: #E59866;
-  /*auto opcion a text-aling, siempre va a centrar, automático*/
 }
 
 .seccion {
@@ -60,12 +59,10 @@ body {
 }
 
 .referencias {
-  width: 200px;
-  border: 1px solid black;
-  margin: 20px;
+  width: 220px;
+  margin: 50px 1px;
   float: left;
-  /*alinear conjunto de elementos. 
-  Ponerse subsiguiente a los elementos dentro del componente principal*/
+  border: 1px solid black;
 }
 
 article {
@@ -86,5 +83,11 @@ article footer {
 img {
   display: block;
   width: 200px;
+  margin: 20px auto;
+}
 
+blockquote {
+  border: 1px solid black;
+  width: 200px;
+  margin: 10px auto 40px auto;
 }
