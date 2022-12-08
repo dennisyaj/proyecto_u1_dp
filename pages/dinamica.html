@@ -6,6 +6,22 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <script class="cmabiartextio" id="scrip1">
+        function cambiarColor2() {
+            document.getElementById('l1').style.backgroundColor = 'blue'
+        }
+        function cambiarColor3(color) {
+            document.getElementById('l1').style.backgroundColor = color
+        }
+        function sumar(num1, num2) {
+            return num1 + num2
+        }
+        function restar(num1, num2) {
+            return num1 - num2
+        }
+    </script>
+
+    <script src="../js/funciones.js"></script>
 </head>
 
 <body>
@@ -14,8 +30,26 @@
     <section>
         <label id="l1" for="">Texto 1</label>
         <label id="l2" for="">Texto 2</label>
+        <img id="img1" style="
+        height: 300px;" src="../img/nuevo-logo-fef.jpg" alt="No existe img">
         <button onclick="document.getElementById('l1').style.backgroundColor='blue'">cambiar color</button>
+        <button onclick="cambiarColor2()">cambiar color 2</button>
+        <button onclick="cambiarColor3('yellow')">cambiar color 3</button>
         <button onclick="document.getElementById('l1').innerHTML='Modificaste el texto'">cambiar texto</button>
+        <button onclick="document.getElementById('img1').src='../img/mundial.jpg'">cambiar img</button>
+        <input id="pass" type="password">
+        <button onclick="alert(document.getElementById('pass').value)">mostrar</button>
+        <button onclick="alert(sumar(3,5))">mostrar suma</button>
+label
+        <input type="number" id="num1">
+        <input type="number" id="num2">
+
+        <button
+            onclick="alert(restar(document.getElementById('num1').value,document.getElementById('num2').value))">restar
+            inputs</button>
+        <button onclick="document.getElementById('resu').innerHTML= dividir(10,2)">dividir</button>
+        <label for="" id="resu">Resultado</label>
+
     </section>
     <footer></footer>
 </body>
