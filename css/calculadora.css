@@ -1,0 +1,43 @@
+#pantalla {
+    border: 2px solid black;
+    padding: 10px;
+    margin: a5px auto;
+    background-color: white;
+    font-size: 30px;
+}
+
+.calculadora {
+    width: 200px;
+    border: solid black;
+    margin: 15px auto;
+    background: #E59866;
+    padding: 20px;
+}
+
+.numeros {
+    font-size: 20px;
+    font-family: Verdana, Helvetica;
+    font-weight: bold;
+    margin: 15px auto;
+    text-align: center;
+
+}
+
+.numeros button {
+    margin: 10px auto;
+    border: 1px solid black;
+    padding: 20px;
+    font-size: 25px;
+}
+
+.operaciones button {
+    margin: 10px auto;
+    border: 1px solid black;
+    padding: 10px;
+    font-size: 25px;
+    text-align: center;
+}
+
+.operaciones {
+    text-align: center;
+}

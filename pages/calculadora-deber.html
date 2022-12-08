@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <script src="../js/funcionesCalculadora.js"></script>
+  <link rel="stylesheet" href="../css/calculadora.css" />
+</head>
+
+<body>
+  <div class="calculadora">
+    <header></header>
+    <nav></nav>
+    <section>
+      <label for="" id="pantalla"></label>
+      <div class="numeros">
+        <button id="num1"
+          onclick="document.getElementById('pantalla').innerHTML=unirTexto(document.getElementById('pantalla').textContent,1)">
+          1</button>
+        <button id="num2"
+          onclick="document.getElementById('pantalla').innerHTML=unirTexto(document.getElementById('pantalla').textContent,2)">
+          2</button>
+        <button id="num3"
+          onclick="document.getElementById('pantalla').innerHTML=unirTexto(document.getElementById('pantalla').textContent,3)">
+          3</button>
+        <button id="num4"
+          onclick="document.getElementById('pantalla').innerHTML=unirTexto(document.getElementById('pantalla').textContent,4)">
+          4</button>
+        <button id="num5"
+          onclick="document.getElementById('pantalla').innerHTML=unirTexto(document.getElementById('pantalla').textContent,5)">
+          5</button>
+        <button id="num6"
+          onclick="document.getElementById('pantalla').innerHTML=unirTexto(document.getElementById('pantalla').textContent,6)">
+          6</button>
+        <button id="num7"
+          onclick="document.getElementById('pantalla').innerHTML=unirTexto(document.getElementById('pantalla').textContent,7)">
+          7</button>
+        <button id="num8"
+          onclick="document.getElementById('pantalla').innerHTML=unirTexto(document.getElementById('pantalla').textContent,8)">
+          8</button>
+        <button id="num9"
+          onclick="document.getElementById('pantalla').innerHTML=unirTexto(document.getElementById('pantalla').textContent,9)">
+          9</button>
+        <button id="num0"
+          onclick="document.getElementById('pantalla').innerHTML=unirTexto(document.getElementById('pantalla').textContent,0)">
+          0</button>
+      </div>
+      <div class="operaciones">
+        <button id="suma"
+          onclick="document.getElementById('pantalla').innerHTML=unirTexto(document.getElementById('pantalla').textContent,'+')">
+          +</button>
+        <button id="resta"
+          onclick="document.getElementById('pantalla').innerHTML=unirTexto(document.getElementById('pantalla').textContent,'-')">-</button>
+        <button id="multi"
+          onclick="document.getElementById('pantalla').innerHTML=unirTexto(document.getElementById('pantalla').textContent,'*')">*</button>
+        <button id="divi"
+          onclick="document.getElementById('pantalla').innerHTML=unirTexto(document.getElementById('pantalla').textContent,'/')">/</button>
+        <button
+          onclick="document.getElementById('pantalla').innerHTML= resultado(document.getElementById('pantalla').textContent)">
+          =
+        </button>
+      </div>
+    </section>
+    <footer></footer>
+  </div>
+</body>
+
+</html>
